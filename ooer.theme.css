@@ -1,28 +1,37 @@
-//META{"name":"ooer","description":"oh hombre son agradables para ayrudar","author":"TheMork#1944 https://github.com/MorkHub","version":"1.0"}*//{}
+//META{"name":"ooer","description":"oh hombre son agradables para ayrudar","author":"TheMork#1944 https://github.com/MorkHub","version":"1.1"}*//{}
 
-.chat.flex-vertical.flex-spacer, .content.flex-spacer.flex-horizontal, .scroller.messages {
-    background: url(//d.thumbs.redditmedia.com/hn64UDlHB1-7n1C9.png);
-}
-
-.chat.flex-vertical.flex-spacer, .content.flex-spacer.flex-horizontal, .scroller.messages, .hljs, .flex-vertical.channels-wrap > div {
-	border: 8px solid blue;
-}
-
-.scroller.channel-members, form, .flex-vertical.channels-wrap > div, .title-wrap.title-wrap-dark {
-	background-color: yellow;
-}
-
-.theme-dark .channel-textarea-inner textarea {
-	color: black;
-}
-.theme-dark .message-group:not(.has-divider) {
-    border-bottom-color: hsla(0,0%,100%,.04);
-}
-
-.message-group:hover .message * {
-    font-size: 150%;
-}
-
-* {
-    cursor:url("//b.thumbs.redditmedia.com/YrGSo9BGOoMTX5rdUbNriLBUTmYhe7bB4yZuSKItEKY.png"),auto;
-}
+.chat.flex-vertical.flex-spacer,.content.flex-spacer.flex-horizontal,.scroller.messages{background:url(//d.thumbs.redditmedia.com/hn64UDlHB1-7n1C9.png)}
+.chat.flex-vertical.flex-spacer,.content.flex-spacer.flex-horizontal,.scroller.messages,.hljs,.flex-vertical.channels-wrap > div{border:8px solid blue}
+.scroller.channel-members,form,.flex-vertical.channels-wrap > div,.title-wrap.title-wrap-dark{background-color:#ff0}
+.theme-dark .channel-textarea-inner textarea{color:#000}
+.theme-dark .message-group:not(.has-divider){border-bottom-color:hsla(0,0%,100%,.04)}
+.message-group:hover .message *{font-size:150%}
+*{cursor:url(//b.thumbs.redditmedia.com/YrGSo9BGOoMTX5rdUbNriLBUTmYhe7bB4yZuSKItEKY.png),auto;animation:shadow-shake .1s linear infinite}
+.app{font-family:"Comic Sans MS";font-size:200%}
+.message-group .message:before{font-size:70%;color:red;content:"oh man i am not good with computer plz to help"}
+.message-group .message .body{background-color:#f0f}
+.message-group .message{background-color:#ff0;border:5px solid blue}
+[class^="containerDefault"] *{font-size:100%}
+[class^="nameDefault"]{color:#000}
+[class^="containerDefault"]:nth-child(7n+3) *{color:red}
+[class^="containerDefault"]:nth-child(7n+2) *{color:orange}
+[class^="containerDefault"]:nth-child(7n+1) *{color:#ff0}
+[class^="containerDefault"]:nth-child(7n+0) *{color:green}
+[class^="containerDefault"]:nth-child(7n-1) *{color:#40e0d0}
+[class^="containerDefault"]:nth-child(7n-2) *{color:blue}
+[class^="containerDefault"]:nth-child(7n-3) *{color:#f0f}
+.channel-members h2{color:#000!important}
+.channel-members h2:before{content:"stinky ";color:#000}
+:not(.user-popout) > header,.title-wrap *{color:#000!important;filter:brightness(0) invert(0)}
+.user-popout .header{background:blue;border:4px solid #ff0}
+.user-popout .header :not(.bot-tag){color:#fff!important}
+.user-popout .body,.user-popout .footer{border:4px solid blue;background:#ff0}
+.user-popout .body *,.user-popout .footer *{color:#000}
+.user-popout .body{border-bottom:none}
+.user-popout .member-role{border:2px solid blue!important;background:green!important;color:blue!important}
+.user-popout input{border:4px solid red;background:blue;color:#fff}
+.user-popout{width:700px}
+.channel-members .member .member-inner{background:#000;padding:5px;margin:-5px;border-radius:5px}
+.channel-members .member{margin-bottom:3px}
+.scroller [class^="containerDefault"] [class^="name"]{background:#000;padding:10px;margin:-10px;border-radius:5px}
+.channels-wrap .scroller{background:#f0f;border:8px solid blue}
