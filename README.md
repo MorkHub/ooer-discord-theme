@@ -8,4 +8,4 @@ Requires [BetterDiscord](https://betterdiscord.net/home/)
 [Raw](https://raw.githubusercontent.com/MorkHub/ooer-discord-theme/master/ooer.theme.css)
 
 ### Screenshots
-![ooer theme screenshot](https://i.imgur.com/imSck54.png)
+![ooer theme screenshot](https://i.imgur.com/ajzMtqC.png)
