@@ -22,3 +22,7 @@
 .message-group:hover .message * {
     font-size: 150%;
 }
+
+* {
+    cursor:url("//b.thumbs.redditmedia.com/YrGSo9BGOoMTX5rdUbNriLBUTmYhe7bB4yZuSKItEKY.png"),auto;
+}
